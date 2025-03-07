@@ -1,7 +1,7 @@
 # Use Alpine as base
 FROM alpine:3.10
 
-LABEL maintainer = "test2@example.com"
+LABEL maintainer = "test3@example.com"
 
 RUN apk update && \
     apk add curl && \
